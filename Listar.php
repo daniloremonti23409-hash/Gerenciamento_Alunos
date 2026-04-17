@@ -1,3 +1,5 @@
+
+
 <?php
 
 session_start();
@@ -10,16 +12,18 @@ unset($_SESSION['alunos']);
 ?>
 
 <!DOCTYPE html>
-<html lang="PT-BR">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+   
     <style>
 table, th, td {
   border: 1px solid black;
 }
 </style>
+
 </head>
 <body>
     

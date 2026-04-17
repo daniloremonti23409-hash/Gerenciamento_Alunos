@@ -1,0 +1,185 @@
+/* =========================
+   RESET
+========================= */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* =========================
+   BASE
+========================= */
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f6f9;
+}
+
+/* =========================
+   MENU LATERAL
+========================= */
+.sidebar {
+    width: 220px;
+    height: 100vh;
+    background: #2c3e50;
+    position: fixed;
+    left: 0;
+    top: 0;
+    padding-top: 20px;
+}
+
+.sidebar h2 {
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.sidebar a {
+    display: block;
+    color: white;
+    padding: 12px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.sidebar a:hover {
+    background: #34495e;
+}
+
+/* =========================
+   CONTEÚDO
+========================= */
+.container {
+    margin-left: 220px;
+    padding: 30px;
+}
+
+/* CENTRALIZA TUDO */
+.conteudo-central {
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* =========================
+   TÍTULO
+========================= */
+h2 {
+    color: #2c3e50;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* =========================
+   FORMULÁRIOS
+========================= */
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 8px rgba(0,0,0,0.1);
+    text-align: left;
+}
+
+form label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+form input, form button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+}
+
+form button {
+    background: #3498db;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+form button:hover {
+    background: #2980b9;
+}
+
+/* =========================
+   TABELA
+========================= */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background: white;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}
+
+th, td {
+    padding: 12px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background: #3498db;
+    color: white;
+}
+
+tr:hover {
+    background: #f1f1f1;
+}
+
+/* =========================
+   STATUS
+========================= */
+.aprovado {
+    color: green;
+    font-weight: bold;
+}
+
+.reprovado {
+    color: red;
+    font-weight: bold;
+}
+
+/* =========================
+   BOTÕES DE AÇÃO
+========================= */
+button {
+    background: #3498db;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background: #2980b9;
+}
+
+/* =========================
+   RESPONSIVO
+========================= */
+@media (max-width: 768px) {
+    .sidebar {
+        width: 180px;
+    }
+
+    .container {
+        margin-left: 180px;
+    }
+
+    form {
+        width: 100%;
+    }
+}
